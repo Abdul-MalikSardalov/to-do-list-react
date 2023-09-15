@@ -1,0 +1,44 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #1b30ae;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  color: #1b30ae;
+}
+
+.list div {
+  flex: 1;
+}
+
+.checkBtn {
+  background-color: #1b30ae;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.deleteBtn {
+  background-color: #ff0026;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.btns {
+  display: contents;
+}
+
+.checked {
+  text-decoration: line-through;
+  text-decoration-color: #007bff;
+}
